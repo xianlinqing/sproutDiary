@@ -1,0 +1,19 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": { "^wd-(.*)": "@wot-ui/ui/components/wd-$1/wd-$1.vue" }
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": { "navigationBarTitleText": "植物日记", "navigationStyle": "custom" }
+    }
+  ],
+  "globalStyle": {
+    "rpxCalcMaxDeviceWidth": 460,
+    "rpxCalcBaseDeviceWidth": 460,
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#faf8f2",
+    "backgroundColor": "#faf8f2"
+  }
+}

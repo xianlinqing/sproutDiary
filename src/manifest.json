@@ -1,0 +1,6 @@
+{
+  "name": "植物日记", "appid": "", "description": "记录生长，收藏每一次新生", "versionName": "1.0.0", "versionCode": "100",
+  "vueVersion": "3", "uniStatistics": { "enable": false },
+  "mp-weixin": { "appid": "wxa2a5f23a2973420e", "setting": { "urlCheck": false }, "usingComponents": true },
+  "h5": { "title": "植物日记 · Sprout Diary", "router": { "mode": "hash" } }
+}

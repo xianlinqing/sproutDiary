@@ -1,0 +1,61 @@
+@use '@wot-ui/ui/styles/theme/index.scss';
+
+// 植物日记品牌主题。全局语义变量让表单、弹层与按钮保持同一套色彩。
+page,
+.app-shell,
+.sprout-popup,
+.wd-root-portal {
+  --wot-primary-1: #e9ebda;
+  --wot-primary-2: #dce4cd;
+  --wot-primary-5: #61815b;
+  --wot-primary-6: #426b48;
+  --wot-primary-7: #31563a;
+  --wot-text-main: #23472d;
+  --wot-text-secondary: #72786d;
+  --wot-text-placeholder: #9a9f8d;
+  --wot-border-main: #e2e3d5;
+  --wot-filled-zero: #faf8f2;
+  --wot-filled-oppo: #fffef8;
+  --wot-filled-bottom: #faf8f2;
+  --wot-button-height-large: 92rpx;
+  --wot-button-font-size-large: 29rpx;
+  --wot-button-radius-main: 34rpx;
+  --wot-button-primary-plain-bg: #faf8f2;
+  --wot-input-bg: #fffef8;
+  --wot-input-padding: 22rpx 24rpx;
+  --wot-input-inner-height: 42rpx;
+  --wot-input-inner-font-size: 28rpx;
+  --wot-textarea-bg: #fffef8;
+  --wot-textarea-padding: 22rpx 24rpx;
+  --wot-textarea-inner-font-size: 28rpx;
+  --wot-textarea-inner-line-height: 1.7;
+  --wot-textarea-inner-min-height: 180rpx;
+}
+.sprout-button {
+  width: 100%;
+  font-weight: 550;
+}
+.sprout-button-soft {
+  --wot-button-height-large: 80rpx;
+}
+.sprout-task-button {
+  --wot-button-radius-main: 32rpx;
+  --wot-button-height-small: 60rpx;
+  --wot-button-font-size-small: 24rpx;
+}
+.sprout-input,
+.sprout-textarea {
+  border: 1rpx solid #e2e3d5;
+  border-radius: 18rpx;
+  overflow: hidden;
+}
+.sprout-textarea {
+  margin-top: 18rpx;
+}
+.sprout-popup {
+  width: 100%;
+  max-width: 460px;
+  margin: 0 auto;
+  background: #faf8f2;
+  border-radius: 38rpx 38rpx 0 0;
+}
